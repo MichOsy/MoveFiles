@@ -18,7 +18,7 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/linux
 
-# files and folders used to test script
+# files used to test script
 *.txt
-"Text files"
+
 
