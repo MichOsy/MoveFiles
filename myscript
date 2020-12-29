@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if ! [ -d $PWD/${1-"Text files"} ];
+then
+mkdir ${1-"Text files"}
+fi
+
+find $PWD -maxdepth 1 -type f -name "*.txt" -exec mv --backup=numbered -t "$PWD/${1-"Text files"}" {} +
