@@ -1,5 +1,5 @@
 # MoveFiles
-This repository contains the bash script, which moves all txt from current directory files to subdirectory
+This repository contains the bash script, which moves all txt files from current directory to subdirectory
 
 Development
 -----------
